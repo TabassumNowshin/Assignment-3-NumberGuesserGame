@@ -37,6 +37,7 @@ function chkNum() {
         let trial = document.querySelector("#trial");
         trial.innerHTML = `${i-1}`;
     }
+    btn.innerHTML = "Game Over!"
     rbtn.disabled = false;
     btn.disabled = true;
 }
